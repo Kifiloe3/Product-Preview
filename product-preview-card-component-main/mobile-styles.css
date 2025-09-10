@@ -1,0 +1,91 @@
+ *{
+      box-sizing: border-box;
+    }
+    body{
+      padding:0;
+      margin: 0;
+      background-color: hsl(30, 38%, 92%);
+    }
+    h3, p,del{
+      color: #6C7289;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .perfume-project-container, button {
+      width: 100%;
+    }
+    .perfume-project-container {
+      width: 100%;
+      height: auto;
+    border-radius: 8px;
+    display: flex;
+  flex-direction: column; /* stack image and text vertically */
+  align-items: center; /* horizontally center everything */
+  justify-content: start; /* vertically center if container has height */
+  text-align: center; /* center text inside */
+  margin: 0 auto; 
+    
+    
+    }
+
+    .perfume-picture-container img{
+      width:100%;
+    }
+    h3 {
+      margin-bottom: 24px;
+      letter-spacing: 5px;
+    
+      
+    }
+
+    
+    h1 {
+      margin-bottom: 24px;
+      font-weight: bold;
+      font-family: 'Fraunces', serif;
+    }
+    p {
+      margin-bottom:24px ;
+      font-weight: bold;
+      text-align: start;
+      
+    }
+    button{
+      background-color: #3D8168;
+      color: white;
+      border: none;
+      padding: 32px;
+      border-radius: 8px;
+      gap: 8px;
+      width: 100%;
+      height: 50px;
+      margin-top: 24px;
+      font-weight: bold;
+      display: flex; 
+      align-items: center; 
+      justify-content: center;
+    
+    }
+    .perfume-container{
+      margin-bottom: 24px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    del{
+      height: 16px;
+      width: 48px;
+      font-size: 13px;
+    }
+    
+
+    @media(max-width: 767px) {
+      .perfume-project-container{
+       margin-top: 80px;
+       margin-bottom: 80px;
+       padding: 13px;
+       padding: 13px;
+       
+       
+      }
+
+      
+    }
