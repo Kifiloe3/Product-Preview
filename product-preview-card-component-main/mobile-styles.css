@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 80px 13px;
+    background-color: bisque;
+}
+main{
+    
+    background-color: white;
+     font-family: 'Fraunces', serif;
+     margin-bottom: 24px;
+     border-bottom-left-radius: 8px;
+     border-bottom-right-radius: 8px;
+}
+
+
+main, .mobile-img-container img, button {
+    width: 100%;
+}
+
+
+
+h3, h1, p {
+    margin-bottom: 24px;
+}
+del {
+    font-size: 12px;
+}
+
+h3{
+    letter-spacing: 5px;
+}
+button {
+    padding: 17.5px 0;
+    color: white;
+    background-color: #3D8168;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    gap: 5px;
+}
+h3, del, p {
+    color: #6C7289;
+}
+
+h3, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+.mobile-img-container img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.perfume-description {
+    padding: 32px;
+}
+
+
+
