@@ -1,0 +1,39 @@
+@media(min-width:560px){
+    body{
+        margin: 84px 286.5;
+    }
+    main{
+        display: flex;
+        margin: 0 auto;
+        width: 600px;
+        margin-bottom: 24px;
+    }
+    .perfume-description{
+        background-color: white;
+        width: 600px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        
+    }
+.mobile-img-container{
+display: none;
+}
+.desktoop-img-container img, .perfume-description {
+    width: 300px;
+    
+}
+
+.desktoop-img-container img {
+    width: 30px;
+}
+
+.desktop-img-container {
+    width: 300px;
+}
+#img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+}

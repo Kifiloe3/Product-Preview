@@ -5,11 +5,10 @@
 }
 body {
     padding: 80px 13px;
-    background-color: bisque;
+    background-color: hsl(30, 38%, 92%);
 }
 main{
     
-    background-color: white;
      font-family: 'Fraunces', serif;
      margin-bottom: 24px;
      border-bottom-left-radius: 8px;
@@ -58,6 +57,10 @@ h3, p {
 .perfume-description {
     padding: 32px;
 }
-
+@media(max-width: 559px){
+.desktop-img-container{
+    display: none;
+}
+}
 
 
